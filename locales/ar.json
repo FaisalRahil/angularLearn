@@ -1,0 +1,12 @@
+{
+	"Hello": "مرحبا بك",
+	"trips": "رحلات",
+	"bootstrap-rtl": "/css/bootstrap/bootstrap-rtl.min.css",
+	"navbar": "/css/navbar-rtl.css",
+	"language": "English",
+	"lan-type": "en",
+	"cities": "المدن",
+	"nubmer-of-trips": "عدد الرحلات",
+	"lan": "lan",
+	"citiesTrips" : "citiesTripsAr"
+}

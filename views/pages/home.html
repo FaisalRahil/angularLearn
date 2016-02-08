@@ -1,0 +1,35 @@
+<div class="panel panel-primary" block-ui="home">
+  <div class="panel-heading">
+    <h3 class="panel-title text-center">Libya has (800) tirps <%= __("Hello")%></h3>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-striped table-condensed table-hover">
+      <thead>
+        <tr>
+          <th class="text-center">
+            #
+          </th>
+          <th class="text-center">
+            <%= __("cities") %>
+          </th>
+          <th class="text-center">
+            <%= __("nubmer-of-trips") %>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat='cityTrip in <%= __("citiesTrips")%>' ng-click="onSubmit()" style="cursor: pointer;">
+          <td class="text-center">
+            {{cityTrip.id}}
+          </td>
+          <td class="text-center">
+            {{cityTrip.name}}
+          </td>
+          <td class="text-center">
+            ({{cityTrip.trips}})
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
